@@ -18,5 +18,5 @@ def hours_ahead(request,offset):
 	except ValueError:
 		raise Http404()
 	dt = datetime.datetime.now() + datetime.timedelte(hours=offset)
-	htmk = "<html><body>In %s hour(s), it will be %s .</body><>/html" %(offsetdt)
+	html = "<html><body>In %s hour(s), it will be %s .</body></html>" %(offsetdt)
 	return HttpResponse(html)
