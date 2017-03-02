@@ -1,1 +1,6 @@
+sudo apt-get install python-pip
+sudo apt-get install python-virtualenv
+cd /home/shiyanlou/Code/shiyanlou_cs30/django
+virtualenv env
 source env/bin/activate
+pip install -i http://misrrors.aliyun.com/pypi/simple django==1.4
