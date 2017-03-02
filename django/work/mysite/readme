@@ -4,3 +4,5 @@ cd /home/shiyanlou/Code/shiyanlou_cs30/django
 virtualenv env
 source env/bin/activate
 pip install -i http://misrrors.aliyun.com/pypi/simple django==1.4
+cd /home/shiyanlou/Code/shiyanlou_cs30/django/work/mysite
+python manage.py runserver
